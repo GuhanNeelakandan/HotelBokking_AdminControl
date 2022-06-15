@@ -1,0 +1,61 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./loginbg3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+  }
+.lheading{
+  text-align: center;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  background-color: rgba(243, 243, 243, 0.5);
+  text-transform: uppercase;
+}
+  
+  .lInput{
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 5px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+.error-msg{
+  color: white;
+}
+.admin-img{
+  width: 50px!important;
+}
+.admin{
+  display: flex;
+  justify-content: center;
+}
+.crediential{
+  color: aliceblue;
+  font-weight: 700;
+}

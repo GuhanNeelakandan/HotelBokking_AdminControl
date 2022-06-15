@@ -1,0 +1,11 @@
+.shadow{
+    display: flex;
+    width:900px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.table-scroll{
+    max-height: 260px;
+    overflow-y: scroll;
+}

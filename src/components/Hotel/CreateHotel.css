@@ -1,0 +1,7 @@
+.select-css{
+    width: 700px!important;
+    cursor: pointer;
+}
+option:hover{
+    background-color: rgb(153, 153, 255);
+}
