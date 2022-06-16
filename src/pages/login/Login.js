@@ -58,7 +58,7 @@ const Login = () => {
                     Login
                 </button>
                 <div className='crediential'>Username: test</div>
-                <div className='crediential'>Password: 123456</div>
+                <div className='crediential'>Password: 12345678</div>
                 {error && <span className='error-msg'>{error.message}</span>}
             </div>
         </div>
